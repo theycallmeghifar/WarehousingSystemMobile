@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/FontApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BarangActivity">
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center">
+
+                <EditText
+                    android:id="@+id/item_code_filter_barang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="Item Code "/>
+
+                <TextView
+                    android:id="@+id/txtErrorBarang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#ff3030"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="66dp"
+                android:layout_height="55.5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="5.5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#1565c0"
+                app:cardCornerRadius="4dp">
+
+                <ImageView
+                    android:id="@+id/btn_filter_barang"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="#1565c0"
+                    android:scaleType="centerCrop"
+                    android:src="@android:drawable/ic_menu_search" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="60dp"></ListView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imgSearchBarang"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/search_data"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:foregroundGravity="bottom"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu" />
+
+</FrameLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#fafafa"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/img_barang_keluar_status"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="left|center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="14dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Item Code" />
+                <TextView
+                    android:id="@+id/txtItemCodeBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="11dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Item Code Value" />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="14dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Item Name" />
+                <TextView
+                    android:id="@+id/txtItemNameBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="11dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Item Name Value" />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="14dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Qty Out" />
+                <TextView
+                    android:id="@+id/txtJumlahBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Qty Out Value" />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="14dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Current Qty" />
+                <TextView
+                    android:id="@+id/txtCurrentQtyBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Current Qty Value"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="14dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Rak" />
+                <TextView
+                    android:id="@+id/txtNamaPaletBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="11dp"
+                    android:textColor="#616161"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Rak Value" />
+
+                <TextView
+                    android:id="@+id/txtStatusBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Status Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtPaletIdBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Rak ID Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtIdBarangBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ID Barang Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtNamaLemariBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Nama Lemari Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtNamaRakBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Nama Rak Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtMaxBarangBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Max Barang Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtIpAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Ip Address Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtGpio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Gpio 1 Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtGpio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Gpio 2 Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtGpio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Gpio 3 Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtGpioStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="GPIO status Value"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/txtMainItemCodeBarangKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7dp"
+                    android:textColor="#616161"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="GPIO status Value"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

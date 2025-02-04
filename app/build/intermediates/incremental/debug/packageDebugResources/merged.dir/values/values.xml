@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">Warehousing System</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_scan_purchase_order_barang_masuk">
+        ScanPurchaseOrderBarangMasukActivity
+    </string>
+    <style name="FontApp" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:fontFamily">@font/calibri_regular</item>
+    </style>
+    <style name="NoNavigationBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.WarehousingSystem" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        
+        <item name="colorPrimary">#1565c0</item>
+        <item name="colorPrimaryVariant">#003c8f</item>
+        <item name="colorOnPrimary">#5e92f3</item>
+        
+        <item name="colorSecondary">#5e92f3</item>
+        <item name="colorSecondaryVariant">#003c8f</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.WarehousingSystem.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.WarehousingSystem.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.WarehousingSystem.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

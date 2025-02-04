@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/FontApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LokasiActivity">
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="LOKASI BARANG"
+                android:textColor="#616161"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/lokasi_F"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     F"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_G"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     G"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_H"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     H"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_I"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     I"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_J"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="160dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     J"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_K"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     K"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_L"
+                android:layout_width="50dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="80dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     L"
+                android:textColor="@color/white" />
+
+
+            <EditText
+                android:id="@+id/lokasi_E"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="133dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     E"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_D"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="186dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     D"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_C"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="239dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     C"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_B"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="292dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     B"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/lokasi_A"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="345dp"
+                android:background="#9e9e9e"
+                android:focusable="false"
+                android:text="     A"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="380dp"
+                android:text="PINTU MASUK"
+                android:textColor="#616161"></TextView>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/lokasi_btnKembali"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="KEMBALI"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

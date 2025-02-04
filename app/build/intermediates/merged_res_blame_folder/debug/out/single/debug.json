@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_edit.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_edit.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_scan_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_scan_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_purchase_order_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_purchase_order_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/menu_refresh.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/menu/refresh.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_fragment_second.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxxhdpi_ic_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxxhdpi/ic_in.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-anydpi_ic_map.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-anydpi/ic_map.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/navigation_nav_graph.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_history.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_history.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_item_history.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/item_history.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_scan_completed.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/scan_completed.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_map.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_map.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_in.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_refresh.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_refresh.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_splash.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_cancel.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_cancel.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_history.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/history.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_delivery_note_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_delivery_note_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_edit.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_edit.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_focus_qrcode.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/focus_qrcode.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/font_calibri_regular.ttf.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/font/calibri_regular.ttf"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/anim_fade_out.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/anim/fade_out.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_ring_text.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/ring_text.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_history.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_history.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_refresh.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_refresh.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxxhdpi_ic_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxxhdpi/ic_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_in_search.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_in_search.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxxhdpi_ic_cancel.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxxhdpi/ic_cancel.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_history.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_history.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_in.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_snap_ring_text.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/snap_ring_text.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxxhdpi_ic_in_search.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxxhdpi/ic_in_search.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_barang.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_barang.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_history.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_history.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_fragment_first.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_rak_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_rak_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-anydpi_ic_refresh.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-anydpi/ic_refresh.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_konfirmasi_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_konfirmasi_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/font_bebasneue.ttf.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/font/bebasneue.ttf"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_cancel.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_cancel.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_box_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/box_in.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_edit.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_edit.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_in_search.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_in_search.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_fim_logo_box.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/fim_logo_box.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_barang.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_barang.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_map.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_map.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_in.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_cancel.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_cancel.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-anydpi_ic_edit.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-anydpi/ic_edit.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_in_search.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_in_search.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_box_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/box_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-anydpi_ic_history.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-anydpi/ic_history.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_barang_update.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_barang_update.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_content_scan_purchase_order_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/content_scan_purchase_order_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_in_search.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_in_search.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_scan_out_of_stock.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/scan_out_of_stock.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_dus_text.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/dus_text.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_lokasi.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_lokasi.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_pin_text.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/pin_text.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_barang_masuk.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_map.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_map.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/menu_nav_cancel.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/menu/nav_cancel.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-hdpi_ic_refresh.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-hdpi/ic_refresh.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_item_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/item_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_scan_rak_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_scan_rak_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/menu_bottom_menu.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_detail_scan_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_detail_scan_barang_keluar.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_item_barang.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/item_barang.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_history.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_history.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_out.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_out.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-mdpi_ic_refresh.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-mdpi/ic_refresh.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/anim_fade_in.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/anim/fade_in.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_cancel.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_cancel.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_search_data.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/search_data.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_map.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_map.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xhdpi_ic_edit.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xhdpi/ic_edit.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_history.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_history.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable_scan_required.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable/scan_required.png"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/drawable-xxhdpi_ic_in.png.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/drawable-xxhdpi/ic_in.png"
+    }
+]

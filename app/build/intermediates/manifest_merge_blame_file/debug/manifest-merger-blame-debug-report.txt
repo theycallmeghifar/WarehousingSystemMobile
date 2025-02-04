@@ -1,0 +1,335 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fim.project.warehousingsystemmobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-feature
+11-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:4:5-6:35
+12        android:name="android.hardware.camera"
+12-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:5:9-47
+13        android:required="true" />
+13-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:6:9-32
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:7:5-70
+14-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:7:19-67
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:9:5-65
+16-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:10:5-81
+17-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:11:5-67
+18-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:11:22-64
+19
+20    <application
+20-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:13:5-137:19
+21        android:allowBackup="true"
+21-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:14:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\LENOVO\.gradle\caches\transforms-3\044efa5003bafaae5cec776523727751\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:15:9-43
+26        android:label="@string/app_name"
+26-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:16:9-41
+27        android:roundIcon="@drawable/fim_logo_box"
+27-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:17:9-51
+28        android:supportsRtl="true"
+28-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:18:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.WarehousingSystem"
+30-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:19:9-55
+31        android:usesCleartextTraffic="true" >
+31-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:20:9-44
+32        <activity
+32-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:21:9-25:52
+33            android:name="fim.project.warehousingsystemmobile.activities.LoginActivity"
+33-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:22:13-53
+34            android:configChanges="orientation"
+34-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:23:13-48
+35            android:exported="false"
+35-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:24:13-37
+36            android:screenOrientation="portrait" />
+36-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:25:13-49
+37        <activity
+37-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:26:9-30:52
+38            android:name="fim.project.warehousingsystemmobile.activities.DetailBarangUpdateActivity"
+38-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:27:13-66
+39            android:configChanges="orientation"
+39-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:28:13-48
+40            android:exported="false"
+40-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:29:13-37
+41            android:screenOrientation="portrait" />
+41-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:30:13-49
+42        <activity
+42-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:31:9-35:52
+43            android:name="fim.project.warehousingsystemmobile.activities.ScanDeliveryNoteBarangMasukActivity"
+43-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:32:13-75
+44            android:configChanges="orientation"
+44-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:33:13-48
+45            android:exported="false"
+45-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:34:13-37
+46            android:screenOrientation="portrait" />
+46-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:35:13-49
+47        <activity
+47-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:36:9-40:52
+48            android:name="fim.project.warehousingsystemmobile.activities.ScanPurchaseOrderBarangMasukActivity"
+48-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:37:13-76
+49            android:configChanges="orientation"
+49-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:38:13-48
+50            android:exported="false"
+50-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:39:13-37
+51            android:screenOrientation="portrait" />
+51-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:40:13-49
+52        <activity
+52-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:41:9-45:52
+53            android:name="fim.project.warehousingsystemmobile.activities.DetailBarangActivity"
+53-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:42:13-60
+54            android:configChanges="orientation"
+54-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:43:13-48
+55            android:exported="false"
+55-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:44:13-37
+56            android:screenOrientation="portrait" />
+56-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:45:13-49
+57        <activity
+57-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:46:9-50:52
+58            android:name="fim.project.warehousingsystemmobile.activities.BarangActivity"
+58-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:47:13-54
+59            android:configChanges="orientation"
+59-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:48:13-48
+60            android:exported="false"
+60-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:49:13-37
+61            android:screenOrientation="portrait" />
+61-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:50:13-49
+62        <activity
+62-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:51:9-55:52
+63            android:name="fim.project.warehousingsystemmobile.activities.HistoryActivity"
+63-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:52:13-55
+64            android:configChanges="orientation"
+64-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:53:13-48
+65            android:exported="false"
+65-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:54:13-37
+66            android:screenOrientation="portrait" />
+66-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:55:13-49
+67        <activity
+67-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:56:9-60:52
+68            android:name="fim.project.warehousingsystemmobile.activities.DetailHistoryActivity"
+68-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:57:13-61
+69            android:configChanges="orientation"
+69-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:58:13-48
+70            android:exported="false"
+70-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:59:13-37
+71            android:screenOrientation="portrait" />
+71-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:60:13-49
+72        <activity
+72-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:61:9-65:52
+73            android:name="fim.project.warehousingsystemmobile.activities.DetailBarangMasukActivity"
+73-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:62:13-65
+74            android:configChanges="orientation"
+74-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:63:13-48
+75            android:exported="false"
+75-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:64:13-37
+76            android:screenOrientation="portrait" />
+76-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:65:13-49
+77        <activity
+77-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:66:9-70:52
+78            android:name="fim.project.warehousingsystemmobile.activities.DetailScanBarangMasukActivity"
+78-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:67:13-69
+79            android:configChanges="orientation"
+79-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:68:13-48
+80            android:exported="false"
+80-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:69:13-37
+81            android:screenOrientation="portrait" />
+81-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:70:13-49
+82        <activity
+82-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:71:9-75:52
+83            android:name="fim.project.warehousingsystemmobile.activities.DetailScanBarangKeluarActivity"
+83-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:72:13-70
+84            android:configChanges="orientation"
+84-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:73:13-48
+85            android:exported="false"
+85-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:74:13-37
+86            android:screenOrientation="portrait" />
+86-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:75:13-49
+87        <activity
+87-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:76:9-80:52
+88            android:name="fim.project.warehousingsystemmobile.activities.DetailBarangKeluarActivity"
+88-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:77:13-66
+89            android:configChanges="orientation"
+89-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:78:13-48
+90            android:exported="false"
+90-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:79:13-37
+91            android:screenOrientation="portrait" />
+91-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:80:13-49
+92        <activity
+92-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:81:9-85:52
+93            android:name="fim.project.warehousingsystemmobile.activities.ScanBarangMasukActivity"
+93-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:82:13-63
+94            android:configChanges="orientation"
+94-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:83:13-48
+95            android:exported="false"
+95-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:84:13-37
+96            android:screenOrientation="portrait" />
+96-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:85:13-49
+97        <activity
+97-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:86:9-90:52
+98            android:name="fim.project.warehousingsystemmobile.activities.ScanBarangKeluarActivity"
+98-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:87:13-64
+99            android:configChanges="orientation"
+99-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:88:13-48
+100            android:exported="false"
+100-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:89:13-37
+101            android:screenOrientation="portrait" />
+101-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:90:13-49
+102        <activity
+102-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:91:9-95:52
+103            android:name="fim.project.warehousingsystemmobile.activities.ScanRakBarangMasukActivity"
+103-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:92:13-66
+104            android:configChanges="orientation"
+104-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:93:13-48
+105            android:exported="false"
+105-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:94:13-37
+106            android:screenOrientation="portrait" />
+106-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:95:13-49
+107        <activity
+107-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:96:9-100:52
+108            android:name="fim.project.warehousingsystemmobile.activities.ScanRakBarangKeluarActivity"
+108-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:97:13-67
+109            android:configChanges="orientation"
+109-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:98:13-48
+110            android:exported="false"
+110-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:99:13-37
+111            android:screenOrientation="portrait" />
+111-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:100:13-49
+112        <activity
+112-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:101:9-105:52
+113            android:name="fim.project.warehousingsystemmobile.activities.ScanItemBarangKeluarActivity"
+113-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:102:13-68
+114            android:configChanges="orientation"
+114-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:103:13-48
+115            android:exported="false"
+115-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:104:13-37
+116            android:screenOrientation="portrait" />
+116-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:105:13-49
+117        <activity
+117-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:106:9-110:52
+118            android:name="fim.project.warehousingsystemmobile.activities.KonfirmasiBarangKeluarActivity"
+118-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:107:13-70
+119            android:configChanges="orientation"
+119-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:108:13-48
+120            android:exported="false"
+120-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:109:13-37
+121            android:screenOrientation="portrait" />
+121-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:110:13-49
+122        <activity
+122-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:111:9-115:52
+123            android:name="fim.project.warehousingsystemmobile.activities.BarangKeluarActivity"
+123-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:112:13-60
+124            android:configChanges="orientation"
+124-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:113:13-48
+125            android:exported="false"
+125-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:114:13-37
+126            android:screenOrientation="portrait" />
+126-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:115:13-49
+127        <activity
+127-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:116:9-120:52
+128            android:name="fim.project.warehousingsystemmobile.activities.BarangMasukActivity"
+128-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:117:13-59
+129            android:configChanges="orientation"
+129-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:118:13-48
+130            android:exported="false"
+130-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:119:13-37
+131            android:screenOrientation="portrait" />
+131-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:120:13-49
+132        <activity
+132-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:121:9-125:52
+133            android:name="fim.project.warehousingsystemmobile.activities.LokasiActivity"
+133-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:122:13-54
+134            android:configChanges="orientation"
+134-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:123:13-48
+135            android:exported="false"
+135-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:124:13-37
+136            android:screenOrientation="portrait" />
+136-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:125:13-49
+137        <activity
+137-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:126:9-136:20
+138            android:name="fim.project.warehousingsystemmobile.activities.SplashActivity"
+138-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:127:13-54
+139            android:configChanges="orientation"
+139-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:128:13-48
+140            android:exported="true"
+140-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:129:13-36
+141            android:screenOrientation="portrait" >
+141-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:130:13-49
+142            <intent-filter>
+142-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:131:13-135:29
+143                <action android:name="android.intent.action.MAIN" />
+143-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:132:17-69
+143-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:132:25-66
+144
+145                <category android:name="android.intent.category.LAUNCHER" />
+145-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:134:17-77
+145-->C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:134:27-74
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\576c7d54b43b8311e63c723488fcc461\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\576c7d54b43b8311e63c723488fcc461\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\576c7d54b43b8311e63c723488fcc461\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\576c7d54b43b8311e63c723488fcc461\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\c359387dc4278b91527df1bcc3263f51\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\c359387dc4278b91527df1bcc3263f51\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\c359387dc4278b91527df1bcc3263f51\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+156
+157        <provider
+157-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+158            android:name="androidx.startup.InitializationProvider"
+158-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+159            android:authorities="fim.project.warehousingsystemmobile.androidx-startup"
+159-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+160            android:exported="false" >
+160-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+161            <meta-data
+161-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+162                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+162-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+163                android:value="androidx.startup" />
+163-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\0dcf03e74da7158d242290bce3a9f5df\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+164            <meta-data
+164-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\546b46393ddf5a34b59076622c072569\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+165                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+165-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\546b46393ddf5a34b59076622c072569\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+166                android:value="androidx.startup" />
+166-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\.gradle\caches\transforms-3\546b46393ddf5a34b59076622c072569\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+167        </provider>
+168
+169        <uses-library
+169-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+170            android:name="androidx.window.extensions"
+170-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+171            android:required="false" />
+171-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+172        <uses-library
+172-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+173            android:name="androidx.window.sidecar"
+173-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+174            android:required="false" />
+174-->[androidx.window:window:1.0.0] C:\Users\LENOVO\.gradle\caches\transforms-3\1ea1c0b7cdf4f9e4361e565038f6c965\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+175    </application>
+176
+177</manifest>
