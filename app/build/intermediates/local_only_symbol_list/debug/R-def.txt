@@ -235,6 +235,7 @@ id txt_error_barangKeluar
 id txt_error_barangMasuk
 id txt_error_detail_barang_ubah
 id ubah_jumlah_detail_barang_ubah
+id version_text
 layout activity_barang
 layout activity_barang_keluar
 layout activity_barang_masuk

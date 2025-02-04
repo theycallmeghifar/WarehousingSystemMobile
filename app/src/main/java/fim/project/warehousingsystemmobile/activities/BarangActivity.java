@@ -69,21 +69,44 @@ public class BarangActivity extends AppCompatActivity implements BottomNavigatio
 
         ButterKnife.bind(this);
 
-        //CUSTOM ACTION BAR FONT
+        // CUSTOM ACTION BAR FONT
         ActionBar actionBar = getSupportActionBar();
-        TextView tv = new TextView(getApplicationContext());
-        Typeface typeface = ResourcesCompat.getFont(this, R.font.bebasneue);
-        RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
-                RelativeLayout.LayoutParams.MATCH_PARENT, // Width of TextView
-                RelativeLayout.LayoutParams.WRAP_CONTENT); // Height of TextView
-        tv.setLayoutParams(lp);
-        tv.setText("FIM WAREHOUSING"); // ActionBar title text
-        tv.setTextSize(32);
-        tv.setTextColor(Color.WHITE);
-        tv.setGravity(Gravity.LEFT);
-        tv.setTypeface(typeface, typeface.NORMAL);
-        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-        actionBar.setCustomView(tv);
+        if (actionBar != null) {
+            actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+
+            RelativeLayout layout = new RelativeLayout(this);
+            layout.setLayoutParams(new RelativeLayout.LayoutParams(
+                    RelativeLayout.LayoutParams.MATCH_PARENT,
+                    RelativeLayout.LayoutParams.WRAP_CONTENT));
+
+            TextView titleTextView = new TextView(getApplicationContext());
+            Typeface typeface = ResourcesCompat.getFont(this, R.font.bebasneue);
+            titleTextView.setText("FIM WAREHOUSING");
+            titleTextView.setTextSize(32);
+            titleTextView.setTextColor(Color.WHITE);
+            titleTextView.setTypeface(typeface, Typeface.NORMAL);
+
+            RelativeLayout.LayoutParams titleParams = new RelativeLayout.LayoutParams(
+                    RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+            titleParams.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
+            titleTextView.setLayoutParams(titleParams);
+
+            TextView versionTextView = new TextView(getApplicationContext());
+            versionTextView.setText("versi 2.0");
+            versionTextView.setTextSize(14);
+            versionTextView.setTextColor(Color.WHITE);
+
+            RelativeLayout.LayoutParams versionParams = new RelativeLayout.LayoutParams(
+                    RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+            versionParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
+            versionParams.addRule(RelativeLayout.CENTER_VERTICAL);
+            versionTextView.setLayoutParams(versionParams);
+
+            layout.addView(titleTextView);
+            layout.addView(versionTextView);
+
+            actionBar.setCustomView(layout);
+        }
 
         prefLogin = getSharedPreferences("loginPref",MODE_PRIVATE);
         prefBarang = getSharedPreferences("barangPref",MODE_PRIVATE);

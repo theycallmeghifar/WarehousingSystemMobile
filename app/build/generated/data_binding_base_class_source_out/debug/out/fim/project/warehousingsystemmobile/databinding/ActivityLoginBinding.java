@@ -33,14 +33,18 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText loginUsername;
 
+  @NonNull
+  public final TextView versionText;
+
   private ActivityLoginBinding(@NonNull FrameLayout rootView, @NonNull Button loginBtnLogin,
       @NonNull EditText loginPassword, @NonNull TextView loginTxtError,
-      @NonNull EditText loginUsername) {
+      @NonNull EditText loginUsername, @NonNull TextView versionText) {
     this.rootView = rootView;
     this.loginBtnLogin = loginBtnLogin;
     this.loginPassword = loginPassword;
     this.loginTxtError = loginTxtError;
     this.loginUsername = loginUsername;
+    this.versionText = versionText;
   }
 
   @Override
@@ -94,8 +98,14 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.version_text;
+      TextView versionText = ViewBindings.findChildViewById(rootView, id);
+      if (versionText == null) {
+        break missingId;
+      }
+
       return new ActivityLoginBinding((FrameLayout) rootView, loginBtnLogin, loginPassword,
-          loginTxtError, loginUsername);
+          loginTxtError, loginUsername, versionText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

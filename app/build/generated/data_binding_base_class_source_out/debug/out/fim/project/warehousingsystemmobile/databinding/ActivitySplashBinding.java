@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -37,10 +38,13 @@ public final class ActivitySplashBinding implements ViewBinding {
   @NonNull
   public final WebView splashOutWvGPIO3;
 
+  @NonNull
+  public final TextView versionText;
+
   private ActivitySplashBinding(@NonNull FrameLayout rootView, @NonNull WebView splashInWvGPIO1,
       @NonNull WebView splashInWvGPIO2, @NonNull WebView splashInWvGPIO3,
       @NonNull WebView splashOutWvGPIO1, @NonNull WebView splashOutWvGPIO2,
-      @NonNull WebView splashOutWvGPIO3) {
+      @NonNull WebView splashOutWvGPIO3, @NonNull TextView versionText) {
     this.rootView = rootView;
     this.splashInWvGPIO1 = splashInWvGPIO1;
     this.splashInWvGPIO2 = splashInWvGPIO2;
@@ -48,6 +52,7 @@ public final class ActivitySplashBinding implements ViewBinding {
     this.splashOutWvGPIO1 = splashOutWvGPIO1;
     this.splashOutWvGPIO2 = splashOutWvGPIO2;
     this.splashOutWvGPIO3 = splashOutWvGPIO3;
+    this.versionText = versionText;
   }
 
   @Override
@@ -113,8 +118,14 @@ public final class ActivitySplashBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.version_text;
+      TextView versionText = ViewBindings.findChildViewById(rootView, id);
+      if (versionText == null) {
+        break missingId;
+      }
+
       return new ActivitySplashBinding((FrameLayout) rootView, splashInWvGPIO1, splashInWvGPIO2,
-          splashInWvGPIO3, splashOutWvGPIO1, splashOutWvGPIO2, splashOutWvGPIO3);
+          splashInWvGPIO3, splashOutWvGPIO1, splashOutWvGPIO2, splashOutWvGPIO3, versionText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

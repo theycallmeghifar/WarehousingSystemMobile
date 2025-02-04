@@ -2705,6 +2705,7 @@ int id uniform 0x7f0902ad
 int id unlabeled 0x7f0902ae
 int id up 0x7f0902af
 int id useLogo 0x7f0902b0
+int id version_text 0x7f0902c9
 int id vertical_only 0x7f0902b1
 int id view_offset_helper 0x7f0902b2
 int id view_transition 0x7f0902b3
