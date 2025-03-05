@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -60,6 +61,12 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
   public final BottomNavigationView bottomMenu;
 
   @NonNull
+  public final Button btnKonfirmasiManual;
+
+  @NonNull
+  public final EditText idPalet;
+
+  @NonNull
   public final WebView inWvGPIO1;
 
   @NonNull
@@ -68,6 +75,9 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
   @NonNull
   public final WebView inWvGPIO3;
 
+  @NonNull
+  public final TextView txtErrorInputManual;
+
   private ActivityDetailBarangMasukBinding(@NonNull FrameLayout rootView,
       @NonNull Button barangMasukBtnDetailKonfirmasi, @NonNull Button barangMasukBtnDetailScan,
       @NonNull CardView barangMasukBtnLokasi, @NonNull TextView barangMasukItemCodeValue,
@@ -75,7 +85,9 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
       @NonNull TextView barangMasukNamaPaletValue, @NonNull TextView barangMasukNamaRakValue,
       @NonNull TextView barangMasukQtyInputValue, @NonNull TextView barangMasukTotalQtyValue,
       @NonNull TextView barangMasukTxtError, @NonNull BottomNavigationView bottomMenu,
-      @NonNull WebView inWvGPIO1, @NonNull WebView inWvGPIO2, @NonNull WebView inWvGPIO3) {
+      @NonNull Button btnKonfirmasiManual, @NonNull EditText idPalet, @NonNull WebView inWvGPIO1,
+      @NonNull WebView inWvGPIO2, @NonNull WebView inWvGPIO3,
+      @NonNull TextView txtErrorInputManual) {
     this.rootView = rootView;
     this.barangMasukBtnDetailKonfirmasi = barangMasukBtnDetailKonfirmasi;
     this.barangMasukBtnDetailScan = barangMasukBtnDetailScan;
@@ -89,9 +101,12 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
     this.barangMasukTotalQtyValue = barangMasukTotalQtyValue;
     this.barangMasukTxtError = barangMasukTxtError;
     this.bottomMenu = bottomMenu;
+    this.btnKonfirmasiManual = btnKonfirmasiManual;
+    this.idPalet = idPalet;
     this.inWvGPIO1 = inWvGPIO1;
     this.inWvGPIO2 = inWvGPIO2;
     this.inWvGPIO3 = inWvGPIO3;
+    this.txtErrorInputManual = txtErrorInputManual;
   }
 
   @Override
@@ -193,6 +208,18 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_konfirmasi_manual;
+      Button btnKonfirmasiManual = ViewBindings.findChildViewById(rootView, id);
+      if (btnKonfirmasiManual == null) {
+        break missingId;
+      }
+
+      id = R.id.id_palet;
+      EditText idPalet = ViewBindings.findChildViewById(rootView, id);
+      if (idPalet == null) {
+        break missingId;
+      }
+
       id = R.id.in_wvGPIO1;
       WebView inWvGPIO1 = ViewBindings.findChildViewById(rootView, id);
       if (inWvGPIO1 == null) {
@@ -211,12 +238,18 @@ public final class ActivityDetailBarangMasukBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txt_error_input_manual;
+      TextView txtErrorInputManual = ViewBindings.findChildViewById(rootView, id);
+      if (txtErrorInputManual == null) {
+        break missingId;
+      }
+
       return new ActivityDetailBarangMasukBinding((FrameLayout) rootView,
           barangMasukBtnDetailKonfirmasi, barangMasukBtnDetailScan, barangMasukBtnLokasi,
           barangMasukItemCodeValue, barangMasukItemNameValue, barangMasukNamaLemariValue,
           barangMasukNamaPaletValue, barangMasukNamaRakValue, barangMasukQtyInputValue,
-          barangMasukTotalQtyValue, barangMasukTxtError, bottomMenu, inWvGPIO1, inWvGPIO2,
-          inWvGPIO3);
+          barangMasukTotalQtyValue, barangMasukTxtError, bottomMenu, btnKonfirmasiManual, idPalet,
+          inWvGPIO1, inWvGPIO2, inWvGPIO3, txtErrorInputManual);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

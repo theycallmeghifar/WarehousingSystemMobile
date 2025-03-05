@@ -148,7 +148,7 @@ MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\LENOVO\.gradle\cach
 	android:roundIcon
 		ADDED from C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:17:9-51
 	android:icon
-		ADDED from C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:15:9-51
 	android:allowBackup
 		ADDED from C:\xampp\htdocs\WarehousingSystemMobile\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme

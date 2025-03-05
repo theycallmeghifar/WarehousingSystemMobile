@@ -80,16 +80,12 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_history.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable-xhdpi_ic_refresh.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable-xhdpi\\ic_refresh.png"
     },
     {
-        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_splash.xml.flat",
-        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable-xhdpi_ic_in.png.flat",
@@ -132,10 +128,6 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_login.xml.flat",
-        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable_box_in.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable\\box_in.png"
     },
@@ -168,6 +160,10 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_scan_barang_keluar.xml"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable-hdpi_ic_in_search.png.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable-hdpi\\ic_in_search.png"
     },
@@ -180,8 +176,16 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable-mdpi\\ic_history.png"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\drawable_fim_logo_box_icon.png.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\drawable\\fim_logo_box_icon.png"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\layout_activity_scan_delivery_note_barang_masuk.xml.flat",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_scan_delivery_note_barang_masuk.xml"
+    },
+    {
+        "merged": "fim.project.warehousingsystemmobile.app-merged_res-35:/layout_activity_konfirmasi_barang_keluar.xml.flat",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_konfirmasi_barang_keluar.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-merged_res-35:\\font_calibri_regular.ttf.flat",

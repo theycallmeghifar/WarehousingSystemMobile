@@ -1944,6 +1944,7 @@ drawable dus_text
 drawable error_center_x
 drawable error_circle
 drawable fim_logo_box
+drawable fim_logo_box_icon
 drawable focus_qrcode
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -2159,6 +2160,7 @@ id btn_filter_barang
 id btn_filter_history
 id btn_inputManual_barangkeluar
 id btn_konfirmasi_detail_barang_ubah
+id btn_konfirmasi_manual
 id btn_scan_barangkeluar
 id btn_scan_barangmasuk
 id btn_scan_delivery_note_barang_masuk
@@ -2334,6 +2336,7 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id id_palet
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2700,6 +2703,7 @@ id txtTanggalHistory
 id txt_error_barangKeluar
 id txt_error_barangMasuk
 id txt_error_detail_barang_ubah
+id txt_error_input_manual
 id ubah_jumlah_detail_barang_ubah
 id unchecked
 id uniform

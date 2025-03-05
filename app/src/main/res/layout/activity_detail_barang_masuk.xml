@@ -486,6 +486,51 @@
 
             </RelativeLayout>
 
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <EditText
+                    android:id="@+id/id_palet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="ID Palet"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txt_error_input_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:gravity="right"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Error Message !"
+                android:textColor="#ff3030"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_konfirmasi_manual"
+                style="?android:textAppearanceSmall"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="4dp"
+                android:text="KONFIRMASI"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp" />
+
         </LinearLayout>
 
         <Button

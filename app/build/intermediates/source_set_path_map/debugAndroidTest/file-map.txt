@@ -1,4 +1,4 @@
-fim.project.warehousingsystemmobile.test.app-androidTest-0 C:\WarehousingSystemMobile\WarehousingSystemMobile\app\build\generated\res\resValues\androidTest\debug
-fim.project.warehousingsystemmobile.test.app-mergeDebugAndroidTestResources-1 C:\WarehousingSystemMobile\WarehousingSystemMobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-fim.project.warehousingsystemmobile.test.app-mergeDebugAndroidTestResources-2 C:\WarehousingSystemMobile\WarehousingSystemMobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-fim.project.warehousingsystemmobile.test.app-merged_res-3 C:\WarehousingSystemMobile\WarehousingSystemMobile\app\build\intermediates\merged_res\debugAndroidTest
+fim.project.warehousingsystemmobile.test.app-androidTest-0 C:\xampp\htdocs\WarehousingSystemMobile\app\build\generated\res\resValues\androidTest\debug
+fim.project.warehousingsystemmobile.test.app-mergeDebugAndroidTestResources-1 C:\xampp\htdocs\WarehousingSystemMobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+fim.project.warehousingsystemmobile.test.app-mergeDebugAndroidTestResources-2 C:\xampp\htdocs\WarehousingSystemMobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+fim.project.warehousingsystemmobile.test.app-merged_res-3 C:\xampp\htdocs\WarehousingSystemMobile\app\build\intermediates\merged_res\debugAndroidTest

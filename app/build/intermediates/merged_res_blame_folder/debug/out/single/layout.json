@@ -72,10 +72,6 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_scan_barang_keluar.xml"
     },
     {
-        "merged": "fim.project.warehousingsystemmobile.app-mergeDebugResources-34:/layout/activity_splash.xml",
-        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-mergeDebugResources-34:\\layout\\fragment_second.xml",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\fragment_second.xml"
     },
@@ -84,16 +80,16 @@
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_history.xml"
     },
     {
+        "merged": "fim.project.warehousingsystemmobile.app-mergeDebugResources-34:/layout/activity_konfirmasi_barang_keluar.xml",
+        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_konfirmasi_barang_keluar.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-mergeDebugResources-34:\\layout\\activity_detail_scan_barang_masuk.xml",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_scan_barang_masuk.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-mergeDebugResources-34:\\layout\\activity_detail_barang.xml",
         "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-main-37:\\layout\\activity_detail_barang.xml"
-    },
-    {
-        "merged": "fim.project.warehousingsystemmobile.app-mergeDebugResources-34:/layout/activity_login.xml",
-        "source": "fim.project.warehousingsystemmobile.app-main-37:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.2\\fim.project.warehousingsystemmobile.app-mergeDebugResources-34:\\layout\\activity_detail_barang_masuk.xml",

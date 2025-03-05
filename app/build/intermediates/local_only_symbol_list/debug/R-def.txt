@@ -9,6 +9,7 @@ drawable box_in
 drawable box_out
 drawable dus_text
 drawable fim_logo_box
+drawable fim_logo_box_icon
 drawable focus_qrcode
 drawable history
 drawable ic_cancel
@@ -71,6 +72,7 @@ id btn_filter_barang
 id btn_filter_history
 id btn_inputManual_barangkeluar
 id btn_konfirmasi_detail_barang_ubah
+id btn_konfirmasi_manual
 id btn_scan_barangkeluar
 id btn_scan_barangmasuk
 id btn_scan_delivery_note_barang_masuk
@@ -127,6 +129,7 @@ id history_purchaseOrder
 id history_purchaseOrderParent
 id history_rak_rv
 id history_tanggal
+id id_palet
 id imgHistory
 id imgSearchBarang
 id img_barang
@@ -234,6 +237,7 @@ id txtTanggalHistory
 id txt_error_barangKeluar
 id txt_error_barangMasuk
 id txt_error_detail_barang_ubah
+id txt_error_input_manual
 id ubah_jumlah_detail_barang_ubah
 id version_text
 layout activity_barang

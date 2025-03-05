@@ -8,6 +8,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -62,7 +64,10 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
     private String gpio2;
     private String gpio3;
     private String gpioStatus;
+    private EditText etIdPalet;
+    private TextView txtErrorManual;
     private TextView txtError;
+    private Button btnKonfirmasiManual;
     private Button btnKonfirmasi;
     private Button btnScanRak;
     private CardView btnLokasi;
@@ -154,6 +159,8 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
 
         }
 
+        etIdPalet = findViewById(R.id.id_palet);
+
         TextView tv_itemCode = (TextView) findViewById(R.id.barangKeluar_itemCodeValue);
         tv_itemCode.setText(String.valueOf(itemCode));
 
@@ -174,6 +181,9 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
 
         txtError = (TextView) findViewById(R.id.barangKeluar_txt_error);
         txtError.setVisibility(View.INVISIBLE);
+
+        txtErrorManual = (TextView) findViewById(R.id.txt_error_input_manual);
+        txtErrorManual.setVisibility(View.INVISIBLE);
 
         btnKonfirmasi = (Button) findViewById(R.id.barangKeluar_btnDetailKonfirmasi);
         btnKonfirmasi.setOnClickListener(new View.OnClickListener() {
@@ -204,6 +214,14 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
                             }
                         })
                         .show();
+            }
+        });
+
+        btnKonfirmasiManual = (Button)findViewById(R.id.btn_konfirmasi_manual);
+        btnKonfirmasiManual.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                idPaletManualCheck();
             }
         });
 
@@ -268,6 +286,9 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
             btnKonfirmasi.setVisibility(View.VISIBLE);
             btnScanRak.setVisibility(View.GONE);
             txtError.setVisibility(View.VISIBLE);
+            txtErrorManual.setVisibility(View.GONE);
+            btnKonfirmasiManual.setVisibility(View.GONE);
+            etIdPalet.setVisibility(View.GONE);
             if (maxBarang.equals("0") | maxBarang.equals("")){
                 txtError.setText("Item telah discan !");
             }else{
@@ -289,6 +310,64 @@ public class KonfirmasiBarangKeluarActivity extends AppCompatActivity implements
         bottom_menu = findViewById(R.id.bottom_menu);
         bottom_menu.setOnNavigationItemSelectedListener(this);
         bottom_menu.getMenu().getItem(1).setChecked(true);
+    }
+
+    public void idPaletManualCheck() {
+        if (etIdPalet != null) {
+            String idPaletInput = etIdPalet.getText().toString().trim();
+
+            txtErrorManual.setVisibility(View.VISIBLE); // Set visible sebelum menampilkan teks
+
+            if (TextUtils.isEmpty(idPaletInput)) {
+                txtErrorManual.setText("Input Id palet terlebih dahulu !");
+                txtErrorManual.setTextColor(Color.parseColor("#ff3030"));
+                txtError.setText("Rak belum discan !");
+                txtError.setTextColor(Color.parseColor("#ff3030"));
+            } else if (idPalet != null && idPalet.equals(idPaletInput)) {
+                txtErrorManual.setVisibility(View.INVISIBLE);
+                txtError.setText("Rak Sesuai !");
+                txtError.setTextColor(Color.parseColor("#8bc34a"));
+
+                SharedPreferences.Editor editor = prefDetailBarangKeluarListView.edit();
+                editor.putString("scanStatus","1");
+                editor.commit();
+
+                SharedPreferences.Editor editorDetail = prefDetailBarangKeluarListView.edit();
+                editorDetail.putString("lvGpioStatus","0");
+                editorDetail.commit();
+
+                new SweetAlertDialog(KonfirmasiBarangKeluarActivity.this, SweetAlertDialog.WARNING_TYPE)
+                        .setTitleText("Konfirmasi")
+                        .setContentText("Ingin menyelesaikan proses?")
+                        .setConfirmText("Selesai")
+                        .setConfirmButtonBackgroundColor(Color.parseColor("#003c8f"))
+                        .setCancelButtonBackgroundColor(Color.parseColor("#003c8f"))
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sDialog) {
+                                sDialog.dismissWithAnimation();
+                                btnKonfirmasi.setClickable(false);
+                                if (maxBarang.equals("0") | maxBarang.equals("")){
+                                    updateItemBarangKeluar(mainItemCode, itemCode, jumlah);
+                                }else{
+                                    updatePaletGpioOffBarangKeluar(idBarang, mainItemCode, itemCode, idPalet, jumlah);
+                                }
+                            }
+                        })
+                        .setCancelButton("Batal", new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sDialog) {
+                                sDialog.dismissWithAnimation();
+                            }
+                        })
+                        .show();
+            } else {
+                txtErrorManual.setText("Rak tidak sesuai !");
+                txtErrorManual.setTextColor(Color.parseColor("#ff3030"));
+                txtError.setText("Item belum discan !");
+                txtError.setTextColor(Color.parseColor("#ff3030"));
+            }
+        }
     }
 
     public void updateItemBarangKeluar(String mainItemCode, String itemCode, String qtyInput) {

@@ -15,6 +15,8 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +24,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -62,10 +65,13 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
     private String gpio2;
     private String gpio3;
     private String gpioStatus;
+    private EditText etIdPalet;
+    private Button btnKonfirmasiManual;
     private Button btnKonfirmasi;
     private Button btnScanRak;
     private CardView btnLokasi;
     private TextView txtError;
+    private TextView txtErrorManual;
     private WebView wvGPIO1;
     private WebView wvGPIO2;
     private WebView wvGPIO3;
@@ -156,6 +162,8 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
 
         }
 
+        etIdPalet = findViewById(R.id.id_palet);
+
         TextView tvItemCode = (TextView) findViewById(R.id.barangMasuk_itemCodeValue);
         tvItemCode.setText(String.valueOf(itemCode));
 
@@ -187,6 +195,9 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
         txtError = (TextView) findViewById(R.id.barangMasuk_txt_error);
         txtError.setVisibility(View.INVISIBLE);
 
+        txtErrorManual = (TextView) findViewById(R.id.txt_error_input_manual);
+        txtErrorManual.setVisibility(View.INVISIBLE);
+
         btnScanRak = (Button)findViewById(R.id.barangMasuk_btnDetailScan);
         btnScanRak.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -203,6 +214,14 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
             @Override
             public void onClick(View view) {
                 confirmationMessageComplete();
+            }
+        });
+
+        btnKonfirmasiManual = (Button)findViewById(R.id.btn_konfirmasi_manual);
+        btnKonfirmasiManual.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                idPaletManualCheck();
             }
         });
 
@@ -226,6 +245,9 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
             txtError.setVisibility(View.VISIBLE);
             txtError.setText("Rak telah discan !");
             txtError.setTextColor(Color.parseColor("#8bc34a"));
+            txtErrorManual.setVisibility(View.GONE);
+            btnKonfirmasiManual.setVisibility(View.GONE);
+            etIdPalet.setVisibility(View.GONE);
         }else{
             btnKonfirmasi.setVisibility(View.GONE);
             btnScanRak.setVisibility(View.VISIBLE);
@@ -261,6 +283,40 @@ public class DetailBarangMasukActivity extends AppCompatActivity implements Bott
                     }
                 })
                 .show();
+    }
+
+    public void idPaletManualCheck() {
+        if (etIdPalet != null) {
+            String idPaletInput = etIdPalet.getText().toString().trim();
+
+            txtErrorManual.setVisibility(View.VISIBLE); // Set visible sebelum menampilkan teks
+
+            if (TextUtils.isEmpty(idPaletInput)) {
+                txtErrorManual.setText("Input Id palet terlebih dahulu !");
+                txtErrorManual.setTextColor(Color.parseColor("#ff3030"));
+                txtError.setText("Rak belum discan !");
+                txtError.setTextColor(Color.parseColor("#ff3030"));
+            } else if (idPalet != null && idPalet.equals(idPaletInput)) {
+                txtErrorManual.setVisibility(View.INVISIBLE);
+                txtError.setText("Rak Sesuai !");
+                txtError.setTextColor(Color.parseColor("#8bc34a"));
+
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putString("idPaletPref","1");
+                editor.commit();
+
+                SharedPreferences.Editor editorDetail = prefDetailBarangMasuk.edit();
+                editorDetail.putString("gpioStatus","0");
+                editorDetail.commit();
+
+                confirmationMessageComplete();
+            } else {
+                txtErrorManual.setText("Rak tidak sesuai !");
+                txtErrorManual.setTextColor(Color.parseColor("#ff3030"));
+                txtError.setText("Rak belum discan !");
+                txtError.setTextColor(Color.parseColor("#ff3030"));
+            }
+        }
     }
 
     public void confirmationMessageCancel() {
